@@ -17,7 +17,8 @@ int main()
     indented = getTab(mcount)+ removeLeadingSpaces(line);
     task_b.push_back(indented);
     mcount = mcount + countChar(removeLeadingSpaces(line), '{'); 
-  } 
+  }
+  cout << "-------------------------------------------------------" << endl;
   cout << "Counting Char and adding Indentations: " << endl;
   for(int i=0;i < task_b.size();i++){
       cout << task_b[i] << endl;
