@@ -1,10 +1,12 @@
       int main(){
            // Hi, I'm a program!
-int x = 1; 
+int x = 1;
     for(int i = 0; i < 10; i++) {
 cout << i;
           cout << endl;
  }
+ if (c == 'A')
+     s = s + c;
 
     string removeLeadingSpaces(string line){
 string s;
@@ -16,5 +18,5 @@ int i = 0;
     s += line[j];
   }
   return s;
-} 
+}
     }
